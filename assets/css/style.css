@@ -1,0 +1,122 @@
+/* Html */
+
+html {
+    scroll-behavior: auto !important;
+}
+
+/* Body */
+
+body {
+    background-color: #000000;
+    font-family: 'Open sans', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand img {
+    width: 5vh;
+}
+
+
+/* Hero section */
+
+#Hero-section img {
+    height: 100vh;
+    width: 100vw;
+}
+
+#Hero-section button {
+    height: fit-content;
+}
+
+
+/* Quiénes somos */
+
+#Quienes-somos {
+    height: 100vh;
+}
+
+#Quienes-somos hr {
+    height: 0.2rem;
+    width: 94vw;
+}
+
+#Quienes-somos .card {
+    padding-inline: 1.5vw;
+}
+
+#Quienes-somos p {
+    font-size: large;
+}
+
+
+/* Destacados */
+
+#Destacados hr {
+    height: 0.2rem;
+    width: 94vw;
+}
+
+#Destacados img {
+    height: 25vh;
+}
+
+#Destacados .card {
+    margin-inline: 0.5vw;
+}
+
+.card p {
+    font-size: large;
+}
+
+.card h5 {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+/* Contacto */
+
+#Contacto {
+    height: 100vh;
+}
+
+#Contacto hr {
+    height: 0.2rem;
+    width: 94vw;
+}
+
+.tform {
+    width: 100%;
+    height: 72vh;
+    margin-block-start: -85vh;
+}
+
+.tf {
+    display: none;
+}
+
+.tf button {
+    position: absolute;
+    z-index: 1;
+}
+
+.info {
+    margin-block: 40vh;
+    text-align: center;
+}
+
+
+/* Footer */
+
+#Footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
